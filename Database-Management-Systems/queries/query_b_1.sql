@@ -1,0 +1,1 @@
+select  floor((to_date('20-1-19')-athlete.birthdate)/365) as agev from athlete;
